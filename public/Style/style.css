@@ -1,0 +1,72 @@
+body {
+    background-color: #2A2727 !important;
+}
+
+#collection-nav {
+    background: linear-gradient(to bottom, #fefcea 0%, #f1da36 100%);
+    margin: 1%;
+}
+
+#collection-nav .row {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#collection-nav h2 {
+    margin: 10px;
+}
+
+#collection-container {
+    margin: 1%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#emptyCollectionContainer {
+    color: #ecf0f1;
+    text-align: center;
+    padding: 5%;
+}
+
+#movies {
+    margin: 1%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#all-movies-header {
+    color: white;
+    margin: 1%;
+}
+
+.movie {
+    background-color: #ecf0f1;
+    width: 25%;
+    margin: 1%;
+    padding: 1%
+}
+
+.movie img {
+    width: 100%;
+    height: 200px;
+    padding: 1%;
+}
+
+hr {
+    margin: 1%;
+}
+
+.row i {
+    margin: 4%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.removeButton {
+    text-align: center;
+    margin-bottom: -10%;
+}
+
+/* .movie p {
+    padding: 5%
+} */
